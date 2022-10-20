@@ -20,7 +20,7 @@ function App() {
         Button Counter
       </h1>
       {buttons.map((button) => (
-        <ButtonCounter txt={button.txt} />
+        <ButtonCounter txt={button.txt} key={button.txt} />
       ))}
     </>
   );
